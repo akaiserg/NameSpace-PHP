@@ -1,0 +1,17 @@
+{
+    "autoload": {
+       "_comment": "there is a class with namespace called main  in the folder globalClasses",
+        "psr-4":
+        {
+            "main\\": "globalClasses/",
+            "nameSpace1\\": "nameSpace1/",
+            "nameSpace2\\": "nameSpace2/",
+            "util\\": "util/",
+            "globalDto\\":"../globalDTOs/"
+        },
+        "classmap": [
+            "globalClasses/Gc1.php"
+        ]
+    },
+    "_comment2": "classmap maps  the class which doesn't  use  namespaces"
+}
